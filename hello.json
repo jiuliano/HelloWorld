@@ -1,0 +1,20 @@
+{
+    "id": "hello",
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "jiuliano/hello:1.0",
+            "privileged": true,
+            "network": "HOST",
+            "parameters": [
+                { "key": "publish", "value": "8090:8090" }
+            ]
+        }
+    },
+    "instances": 1,
+    "cpus": 1,
+    "mem": 128,
+    "uris":  [
+        "file:///etc/docker.tar.gz"
+    ]
+}
