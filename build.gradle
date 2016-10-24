@@ -1,6 +1,6 @@
 apply plugin: 'application'
  
-mainClassName = "crudbunnies" 
+mainClassName = "com.proquest.micro.spring.HelloWorldController" 
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web:1.0.2.RELEASE")
